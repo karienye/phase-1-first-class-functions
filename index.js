@@ -1,7 +1,8 @@
 function receivesAFunction (callback) {
     console.log(callback());
   }
-  function returnsANamedFunction(name) {
+  function returnsANamedFunction (name) {
+   
     console.log(name("thing"));
   }
   function returnsAnAnonymousFunction (name) {
