@@ -1,13 +1,23 @@
 function receivesAFunction (callback) {
-    console.log(callback());
+   console.log(callback());
   }
-  function returnsANamedFunction (name) {
-   
-    console.log(name("thing"));
+  function returnsANamedFunction () {
+    return returnsANamedFunction
   }
-  function returnsAnAnonymousFunction (name) {
-    console.log(name());
+  function returnsAnAnonymousFunction () {
+    return function(){};
   }
+
+
+
+
+
+
+
+
+
+
+
   /*receivesAFunction ({ fName: 'Annah', lName: 'Kananu' });
 
   function receivesAFunction (Spy) {
